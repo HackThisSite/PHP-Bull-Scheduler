@@ -1,0 +1,38 @@
+{
+    "name": "hackthissite/php-bull-scheduler",
+    "description": "PHP library to schedule Redis jobs for the NodeJS Bull Redis queue",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["php", "nodejs", "bull", "redis", "queue", "scheduler"],
+    "support": {
+        "issues": "https://github.com/hackthissite/php-bull-scheduler/issues"
+    },
+    "authors": [
+        {
+            "name": "HackThisSite",
+            "email": "staff@hackthissite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0 || >=7.0",
+        "ext-json": "*",
+        "psr/log": "^1.1",
+        "predis/predis": "^1.1",
+        "ramsey/uuid": "^3.8",
+        "vierbergenlars/php-semver": "^3.0"
+    },
+    "suggest": {
+        "ext-redis": "*"
+    },
+    "require-dev": {
+        "ext-ctype": "*",
+        "ext-phar": "*",
+        "phpunit/phpunit": "^4.8 || ^6.3",
+        "clean/phpdoc-md" : "^0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "HackThisSite\\BullScheduler\\": "src"
+        }
+    }
+}
