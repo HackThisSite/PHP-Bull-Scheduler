@@ -4,6 +4,7 @@ PHP library to schedule Redis jobs for the NodeJS [Bull Redis queue](https://git
 ## Requirements
 * PHP >= 5.5.0
 * PHP JSON extension
+* Redis >= 2.8.18
 
 ## Installation
 Install via composer:
