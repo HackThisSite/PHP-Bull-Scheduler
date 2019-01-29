@@ -1,5 +1,5 @@
 # PHP Bull Scheduler
-PHP library to schedule Redis jobs for the NodeJS [Bull Redis queue](https://github.com/OptimalBits/bull).
+PHP library to schedule jobs for the NodeJS [Bull Redis queue](https://github.com/OptimalBits/bull).
 
 ## Requirements
 * PHP >= 5.5.0
